@@ -1,12 +1,61 @@
-# React + Vite
+# React Crash 2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based project using Vite, Tailwind CSS, and JSON Server for development.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19 with Vite for fast development
+- Tailwind CSS for styling
+- React Router for navigation
+- JSON Server for a mock backend API
+- ESLint for linting
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/react-crash-2025.git
+   cd react-crash-2025
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+## Scripts
+
+- **Start development server:** `npm run dev`
+- **Build the project:** `npm run build`
+- **Run ESLint:** `npm run lint`
+- **Preview production build:** `npm run preview`
+- **Run JSON Server (Mock API):** `npm run server`
+
+## Dependencies
+
+```json
+{
+  "react": "^19.0.0",
+  "react-dom": "^19.0.0",
+  "react-icons": "^5.5.0",
+  "react-router-dom": "^7.3.0",
+  "react-spinners": "^0.15.0",
+  "react-toastify": "^11.0.5"
+}
+```
+
+## Dev Dependencies
+
+```json
+{
+  "@vitejs/plugin-react": "^4.3.4",
+  "eslint": "^9.21.0",
+  "json-server": "^1.0.0-beta.3",
+  "tailwindcss": "^3.4.17",
+  "vite": "^6.2.0"
+}
+```
+
+## License
+
+This project is licensed under the MIT License.
